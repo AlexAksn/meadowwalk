@@ -3,8 +3,8 @@ body {
 } 
 
 
-.navbar, .footer {
-    background-color: #e8f0fe;
+.navbar {
+    background-color: #94c9ed;
 }
 
 
@@ -74,24 +74,17 @@ body {
 
 
 .footer {
-    background-color: #11509B;
-    color: white;
-    text-align: center;
     padding: 20px 0;
+    background-color: #94c9ed;
 } 
 
 .footer p {
     margin: 0;
 }
 
-.footer a {
-    text-decoration: none;
-    color: white;
-}
 
-.footer a:hover {
-    color: #ddd;
-} 
+
+
 
 
 
