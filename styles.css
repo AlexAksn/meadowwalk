@@ -1,10 +1,45 @@
+:root {
+    --primary-color: #114F99;
+    --secondary-color: #94c9ed;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    --danger-color: #dc3545;
+}
+
 body {
     font-family: Arial, sans-serif;
 } 
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-weight: 600;
+    word-spacing: -1px;
+    text-transform: uppercase;
+}
 
 .navbar {
-    background-color: #94c9ed;
+    background-color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: var(--primary-color);
+}
+
+.nav-item .apply-btn {
+    background-color: var(--primary-color);
+    color:white;
+}
+
+.nav-item .apply-btn:hover {
+    background-color: var(--dark-color);
 }
 
 
@@ -34,17 +69,44 @@ body {
     color: white;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(100%);
-}
+
+
 
 .hero-section .btn {
     font-size: 1.25rem;
     padding: 10px 30px;
 }
 
+.units-section .nav-tabs .nav-link {
+    color: var(--primary-color);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  
+  .units-section .nav-tabs .nav-link.active {
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  .units-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .units-section .card img {
+    border-radius: 5px 5px 0 0;
+    
+    height: auto;
+    
+  }
 
+  
+  .units-section .card-body {
+    padding: 20px;
+  }
+  
 
 
 .bg-light {
